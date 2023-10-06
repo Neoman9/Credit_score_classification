@@ -1,0 +1,9 @@
+training_pipeline_config:
+  pipeline_name: credit_classification
+  artifact_dir: artifact
+
+
+data_ingestion_config:
+  ingested_train_dir: train
+  ingested_test_dir: test
+
