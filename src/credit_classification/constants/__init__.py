@@ -32,3 +32,11 @@ DATA_INGESTION_INGESTED_TRAIN_DIR_KEY= "ingested_train_dir"
 DATA_INGESTION_INGESTED_TEST_DIR_KEY= "ingested_test_dir"
 
   
+# Data validation related Variable 
+DATA_VALIDATION_CONFIG_KEY = "data_validation_config"
+DATA_VALIDATION_ARTIFACT_DIR= "data_validation"
+DATA_VALIDATION_SCHEMA_DIR_KEY= "schema_dir"
+DATA_VALIDATION_SCHEMA_FILE_NAME_KEY= "schema_file_name"
+DATA_VALIDATION_STATUS_FILE_KEY= "status_file"
+
+
