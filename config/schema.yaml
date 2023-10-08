@@ -1,0 +1,63 @@
+columns:
+  ID: object
+  Customer_ID: object
+  Month: object
+  Name: object
+  Age: object
+  SSN: object
+  Occupation: object
+  Annual_Income: object
+  Monthly_Inhand_Salary: float64
+  Num_Bank_Accounts: int64
+  Num_Credit_Card: int64
+  Interest_Rate: int64
+  Num_of_Loan: object
+  Type_of_Loan: object
+  Delay_from_due_date: int64
+  Num_of_Delayed_Payment: object
+  Changed_Credit_Limit: object
+  Num_Credit_Inquiries: float64
+  Credit_Mix: object
+  Outstanding_Debt: object
+  Credit_Utilization_Ratio: float64
+  Credit_History_Age: object
+  Payment_of_Min_Amount: object
+  Total_EMI_per_month: float64
+  Amount_invested_monthly: object
+  Payment_Behaviour: object
+  Monthly_Balance: object
+  Credit_Score: object
+
+numerical_columns:
+  -Age
+  -Annual_Income
+  -Monthly_Inhand_Salary
+  -Num_Bank_Accounts
+  -Num_Credit_Card
+  -Interest_Rate
+  -Num_of_Loan
+  -Delay_from_due_date
+  -Num_of_Delayed_Payment
+  -Changed_Credit_Limit
+  -Num_Credit_Inquiries
+  -Outstanding_Debt
+  -Credit_Utilization_Ratio
+  -Credit_History_Age
+  -Total_EMI_per_month
+  -Amount_invested_monthly
+  -Monthly_Balance
+
+categorical_columns:
+  -ID
+  -Customer_ID
+  -Month
+  -Name
+  -SSN
+  -Occupation
+  -Type_of_Loan
+  -Credit_Mix
+  -Payment_of_Min_Amount
+  -Payment_Behaviour
+
+target_column: Credit_Score
+  
