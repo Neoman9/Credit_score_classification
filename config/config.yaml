@@ -10,6 +10,6 @@ data_ingestion_config:
 data_validation_config:
   schema_dir: config
   schema_file_name: schema.yaml
-  status_file: str
+  status_file: st.txt
 
 
