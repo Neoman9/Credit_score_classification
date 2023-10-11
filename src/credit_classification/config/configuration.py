@@ -1,6 +1,6 @@
 from src.credit_classification.logger import logging
 from src.credit_classification.exception import CreditException
-from src.credit_classification.entity.config_entity import DataIngestionConfig, TrainingPipelineConfig, DataValidationConfig
+from src.credit_classification.entity.config_entity import DataIngestionConfig, TrainingPipelineConfig, DataValidationConfig, DataTransformationConfig
 from src.credit_classification.constants import *
 from src.credit_classification.utils.utils import read_yaml_file
 
@@ -53,5 +53,11 @@ class configuration:
             data_validation_config= DataValidationConfig(schema_file_path=schema_file_path,status_file_path=status_file_path)
             logging.info(f"Data validation Config :{data_validation_config}")
             return data_validation_config
+        except Exception as e:
+            raise CreditException(e,sys) from e
+        
+    def get_data_transformation_config(self)->DataTransformationConfig:
+        try:
+            pass
         except Exception as e:
             raise CreditException(e,sys) from e

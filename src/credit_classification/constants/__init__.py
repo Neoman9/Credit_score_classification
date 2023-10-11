@@ -39,6 +39,22 @@ DATA_VALIDATION_SCHEMA_DIR_KEY= "schema_dir"
 DATA_VALIDATION_SCHEMA_FILE_NAME_KEY= "schema_file_name"
 DATA_VALIDATION_STATUS_FILE_KEY= "status_file"
 
+#data transformation related variable 
+DATA_TRANSFORMATON_CONFIG_KEY = "data_transformation_config"
+DATA_TRANSFORMATION_ARTIFACT_DIR = "data_transformation"
+DATA_TRANSFORMATION_TRANSFORMED_DIR_KEY = "transformed_dir"
+DATA_TRANSFORMATION_TRANSFORMED_TRAIN_DIR_KEY= "transformed_train_dir"
+DATA_TRANSFORMATION_TRANSFORMED_TEST_DIR_KEY= "transformed_test_dir"
+DATA_TRANSFORMATION_PREPROCESSING_DIR_KEY= "preprocessing_dir"
+DATA_TRANSFOEMATION_PREPROCESSED_OBJECT_FILE_NAME_KEY= "preprocessed_object_file_name"
+
+#schema variables 
+DATASET_SCHEMA_COLUMNS_KEY=  "columns"
+NUMERICAL_COLUMN_KEY="numerical_columns"
+TARGET_COLUMN_KEY="target_column"
+CATEGORICAL_COLUMN_KEY= "categorical_columns"
+
+
 
 
 
